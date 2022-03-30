@@ -1,0 +1,17 @@
+{
+  "name": "upload-icon",
+  "version": "1.0.0",
+  "description": "Support to upload system icon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-excel": "node index-excel.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.26.1",
+    "read-excel-file": "5.2.28"
+  }
+}
