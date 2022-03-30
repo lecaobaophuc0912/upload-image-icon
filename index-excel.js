@@ -76,7 +76,7 @@ const uploadData = async () => {
         }
 
         if (!fileList.includes(item.imageInfo)) {
-            console.log(redColor, `Item #${index} ${JSON.stringify(item)} is image in folder icons.`, redColor);
+            console.log(redColor, `Item #${index} ${JSON.stringify(item)} is not exist image in folder icons.`, redColor);
             return;
         }
 

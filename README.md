@@ -17,6 +17,11 @@ NPM: 6.14.10 or latest
 npm install
 ```
 
+Go to ```data.js``` change config:
+  - ```API_URL``` change to domain URL of environment will upload. MUST HAVE '/' at the end of URL.
+  - ```TOKEN_ADMIN``` get Bearer token of admin account use to upload. To get the token: </br>
+  GO TO Admin Portal -> Choose Network tab -> Open any request to server -> Go to Headers tab -> Copy value from ```Authorization```
+
 ## Usage for Excel file
 
 1. Copy all file svg icon and paste to folder "./icons"
