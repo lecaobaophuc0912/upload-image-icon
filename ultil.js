@@ -3,6 +3,7 @@ const axios = require('axios');
 const { TOKEN_ADMIN, ICON_FOLDER, API_URL } = require('./data')
 const regFile = new RegExp('^(?!.*\\.inline\\.[^.]+$).*\\.(?:svg)$');
 const greenColor = '\x1b[32m';
+const redColor = '\x1b[31m';
 
 const getFileNameList = () => {
     try {
